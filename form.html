@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="title">Free Code Camp Form</h1>
+	<p id="description">Information about this FCC form goes here</p>
+
+	<form id="survey-form">
+
+		<label id="name-label">Name: </label><input type="text" name="name" id="name" required placeholder="Enter a valid name">
+		<br>
+		<label id="email-label">Email: </label><input type="email" name="email" id="email" required placeholder="Enter a valid email address">
+		<br>
+		<label id="number-label">Age: </label><input type="number" name="age" min="1" max="100" id="number" required placeholder="Enter a number between 1 and 100">
+		<br>
+		<label>Favourit Colour: </label><select name="colour" name="dropdown" id="dropdown">
+			<option value="red">Red</option>	
+			<option value="green">Green</option>	
+			<option value="yellow">Yellow</option>	
+			<option value="blue">Blue</option>	
+		</select>
+		<br>
+		<label>Gender: </label><input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="other">Other		
+		<br>
+		<label>Location: </label><input type="radio" name="location" value="london">London
+		<input type="radio" name="location" value="notLondon">UK but not London
+		<input type="radio" name="location" value="notUK">Outside of the UK
+		<br>
+		<label>Favourite Day(s): </label><input type="checkbox" name="day" value="monday">Monday
+		<input type="checkbox" name="day" value="tuesday">Tuesday
+		<input type="checkbox" name="day" value="wednesday">Wednesday
+		<input type="checkbox" name="day" value="thursday">Thursday
+		<input type="checkbox" name="day" value="friday">Friday
+		<input type="checkbox" name="day" value="saturday">Saturday
+		<input type="checkbox" name="day" value="sunday">Sunday
+		<br>
+		<textarea name="comment" placeholder="Enter additional comments here"></textarea>
+		<br><br>
+		<button input type="submit" id="submit" value="Submit">Submit this form</button>
+		
+	</form>
+</body>
+</html>
